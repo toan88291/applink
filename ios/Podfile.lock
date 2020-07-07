@@ -1,0 +1,54 @@
+PODS:
+  - facebook_deeplinks (0.1.0):
+    - FBSDKCoreKit (= 5.5.0)
+    - Flutter
+  - FBSDKCoreKit (5.5.0):
+    - FBSDKCoreKit/Basics (= 5.5.0)
+    - FBSDKCoreKit/Core (= 5.5.0)
+  - FBSDKCoreKit/Basics (5.5.0)
+  - FBSDKCoreKit/Core (5.5.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKShareKit (5.15.1):
+    - FBSDKShareKit/Share (= 5.15.1)
+  - FBSDKShareKit/Share (5.15.1):
+    - FBSDKCoreKit (~> 5.0)
+  - Flutter (1.0.0)
+  - path_provider (0.0.1):
+    - Flutter
+  - social_share_plugin (0.3.1):
+    - FBSDKCoreKit
+    - FBSDKShareKit
+    - Flutter
+
+DEPENDENCIES:
+  - facebook_deeplinks (from `.symlinks/plugins/facebook_deeplinks/ios`)
+  - Flutter (from `Flutter`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - social_share_plugin (from `.symlinks/plugins/social_share_plugin/ios`)
+
+SPEC REPOS:
+  trunk:
+    - FBSDKCoreKit
+    - FBSDKShareKit
+
+EXTERNAL SOURCES:
+  facebook_deeplinks:
+    :path: ".symlinks/plugins/facebook_deeplinks/ios"
+  Flutter:
+    :path: Flutter
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  social_share_plugin:
+    :path: ".symlinks/plugins/social_share_plugin/ios"
+
+SPEC CHECKSUMS:
+  facebook_deeplinks: 688a656ac88e030c3599623e776188ebc8bf50e8
+  FBSDKCoreKit: 7ade9cfea30eef2f6cf105a1aa904f89ea68fb7d
+  FBSDKShareKit: 259737eab3cc807087374553abdf588b3096ba55
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  path_provider: fb74bd0465e96b594bb3b5088ee4a4e7bb1f2a9d
+  social_share_plugin: f9dc03c1137b137e6efb1f3608f449c4cb153a7a
+
+PODFILE CHECKSUM: c34e2287a9ccaa606aeceab922830efb9a6ff69a
+
+COCOAPODS: 1.9.3
