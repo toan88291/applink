@@ -109,7 +109,7 @@ class _MyAppState extends State<MyApp> {
                       onCancel: () {
                         print('FACEBOOK CANCELLED');
                         return;
-                      },
+                      },    
                       onError: (error) {
                         print('FACEBOOK ERROR $error');
                         return;
